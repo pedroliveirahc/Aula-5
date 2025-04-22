@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Harry Potter</title>
+	<style>
+		body {
+			background-image: url("fundo.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-family: 'Georgia', serif;
+			color: white;
+		}
+
+		p {
+			text-align: justify;
+			text-indent: 50px;
+			font-size: 18px;
+			line-height: 1.8;
+		}
+
+		h1, h2 {
+			text-align: center;
+			color: #F2AA52;
+			font-family: 'Georgia', serif;
+		}
+
+		figure {
+			display: block;
+			width: 500px;
+			height: 300px;
+			margin: 30px auto;
+			position: relative;
+		}
+
+		figure img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			transition: box-shadow 0.5s;
+		}
+
+		figure figcaption {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			opacity: 0;
+			transition: opacity 1s;
+			box-sizing: border-box;
+			padding: 10px;
+			font-weight: bold;
+			font-size: 16px;
+		}
+
+		figure:hover figcaption {
+			opacity: 1;
+		}
+
+		/* Estilos para cada figura com base na paleta */
+
+		.figure-dark {
+			border: 8px solid #262214;
+		}
+		.figure-dark img {
+			box-shadow: 0 0 10px #F2AA52;
+		}
+		.figure-dark figcaption {
+			background-color: rgba(38, 34, 20, 0.7);
+		}
+
+		.figure-golden {
+			border: 8px solid #F2AA52;
+		}
+		.figure-golden img {
+			box-shadow: 0 0 12px #8C7A58;
+		}
+		.figure-golden figcaption {
+			background-color: rgba(242, 170, 82, 0.5);
+		}
+
+		.figure-wood {
+			border: 8px solid #733F12;
+		}
+		.figure-wood img {
+			box-shadow: 0 0 8px #402208;
+		}
+		.figure-wood figcaption {
+			background-color: rgba(115, 63, 18, 0.6);
+		}
+
+		.figure-green {
+			border: 8px solid #8C7A58;
+		}
+		.figure-green img {
+			box-shadow: 0 0 12px #262214;
+		}
+		.figure-green figcaption {
+			background-color: rgba(140, 122, 88, 0.5);
+		}
+
+		.figure-brown {
+			border: 8px solid #402208;
+		}
+		.figure-brown img {
+			box-shadow: 0 0 12px #733F12;
+		}
+		.figure-brown figcaption {
+			background-color: rgba(64, 34, 8, 0.6);
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Meu Filme Preferido: Harry Potter</h1>
+
+	<p>Desde a primeira vez que assisti, eu sou completamente apaixonado pelo universo de <strong>Harry Potter</strong>. A história me prendeu de um jeito único, com seus mistérios, feitiços e personagens incríveis. É mais que um filme pra mim — é uma parte da minha infância, da minha imaginação e até das minhas conversas do dia a dia.</p>
+
+	<figure class="figure-dark">
+		<img src="imagem1.jpg" alt="Harry Potter">
+		<figcaption>
+			Harry Potter, o Menino que Sobreviveu
+		</figcaption>
+	</figure>
+
+	<hr>
+
+	<h2>Hogwarts</h2>
+
+	<p>Eu sempre sonhei em receber uma carta de Hogwarts. A escola de magia mais incrível do mundo é o lugar onde eu queria estudar! As casas, os professores, os corredores... tudo em Hogwarts me fascina. Só de ver as cenas, já sinto aquela vontade de estar lá também.</p>
+
+	<figure class="figure-golden">
+		<img src="imagem2.jpg" alt="Castelo de Hogwarts">
+		<figcaption>
+			O majestoso castelo de Hogwarts
+		</figcaption>
+	</figure>
+
+	<hr>
+
+	<h2>Amizade Verdadeira</h2>
+
+	<p>Outra coisa que me faz amar Harry Potter são as amizades. Harry, Rony e Hermione me mostram como a lealdade e a coragem são poderosas. Eles enfrentam o perigo juntos, superam medos e confiam uns nos outros. É impossível não se inspirar neles.</p>
+
+	<figure class="figure-wood">
+		<img src="imagem3.jpg" alt="Harry, Rony e Hermione">
+		<figcaption>
+			Amigos para todas as batalhas
+		</figcaption>
+	</figure>
+
+	<hr>
+
+	<h2>O Feitiço da Nostalgia</h2>
+
+	<p>Mesmo depois de tanto tempo, cada vez que assisto de novo sinto a mesma emoção. As músicas, as cenas de ação, os vilões… tudo continua mágico pra mim. Por isso, sem dúvida nenhuma, <strong>Harry Potter é o meu filme preferido de todos os tempos</strong>.</p>
+
+	<figure class="figure-green">
+		<img src="imagem4.jpg" alt="Voldemort e Harry Potter">
+		<figcaption>
+			Confronto final: o bem contra o mal
+		</figcaption>
+	</figure>
+
+	<hr>
+
+	<h2>Harry Potter Pelo Mundo</h2>
+
+	<p>A série Harry Potter teve um impacto significativo no mundo, influenciando a cultura popular, o mercado de livros e até mesmo a indústria de entretenimento. <strong>A série inspirou uma geração de fãs, gerou uma vasta gama de produtos licenciados e promoveu uma cultura de leitura.</strong></p>
+
+	<figure class="figure-brown">
+		<img src="imagem6.jpeg" alt="Harry Potter pelo mundo">
+		<figcaption>
+			Meme criado por fãs
+		</figcaption>
+	</figure>
+
+	<hr>
+
+	<p style="text-align: center;">Desenvolvido por Pedro, fã declarado de Harry Potter</p>
+
+</body>
+</html>
